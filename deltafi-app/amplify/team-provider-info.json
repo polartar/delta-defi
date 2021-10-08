@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplify9e494bc325814-staging-54903-authRole",
+      "UnauthRoleArn": "arn:aws:iam::077918681028:role/amplify-amplify9e494bc325814-staging-54903-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::077918681028:role/amplify-amplify9e494bc325814-staging-54903-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-amplify9e494bc325814-staging-54903-deployment",
+      "UnauthRoleName": "amplify-amplify9e494bc325814-staging-54903-unauthRole",
+      "StackName": "amplify-amplify9e494bc325814-staging-54903",
+      "StackId": "arn:aws:cloudformation:us-east-2:077918681028:stack/amplify-amplify9e494bc325814-staging-54903/f43f1880-20e8-11ec-972e-02e648f90cee",
+      "AmplifyAppId": "d1udrx22lydjpa"
+    },
+    "categories": {
+      "auth": {
+        "cognito38139db1": {}
+      }
+    }
+  }
+}

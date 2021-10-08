@@ -1,0 +1,26 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled Output
+/dist
+/coverage
+.serverless
+.build
+junit.xml
+
+# Dependencies
+node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+/.vscode
+.vscode/*
+.env
+
+/Nftswap
+/Configures

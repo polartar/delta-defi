@@ -1,0 +1,21 @@
+{
+    "appName": "deltafiapp",
+    "roleName": "pinpointLambdaRolef1ed899f",
+    "cloudformationPolicyName": "cloudformationPolicyf1ed899f",
+    "cloudWatchPolicyName": "cloudWatchPolicyf1ed899f",
+    "pinpointPolicyName": "pinpointPolicyf1ed899f",
+    "authPolicyName": "pinpoint_amplify_f1ed899f",
+    "unauthPolicyName": "pinpoint_amplify_f1ed899f",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
